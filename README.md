@@ -1,4 +1,4 @@
-# 🔐 SOC Anomaly Detection Lab
+# 🔐 SOC Anomaly Detection Lab1
 
 ## 📌 Project Overview
 This project demonstrates a basic Security Operations Center (SOC) workflow using Wireshark to analyze network traffic, establish a baseline, and detect anomalies.
