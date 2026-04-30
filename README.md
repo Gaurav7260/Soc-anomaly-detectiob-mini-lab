@@ -14,10 +14,11 @@ This project demonstrates a basic Security Operations Center (SOC) workflow usin
 ---
 
 ## 🛠️ Tools & Technologies
-- Wireshark
-- Kali Linux
-- Windows VM
+- Wireshark for packet capture and analyze
+- Kali Linux for attack 
+- Windows VM work as victim
 - UTM (Virtualization)
+- Splunk for logs 
 
 ---
 
@@ -25,6 +26,7 @@ This project demonstrates a basic Security Operations Center (SOC) workflow usin
 - Host: Mac
 - VM 1: Windows (target system)
 - VM 2: Kali Linux (attacker)
+- Splunk 
 
 ---
 
