@@ -1,79 +1,218 @@
-# 🔐 SOC Anomaly Detection Mini Lab
+# 🔐 SOC Anomaly Detection & SIEM Monitoring Mini Lab
 
-## 📌 Project Overview
+A hands-on cybersecurity home lab project focused on Security Operations Center (SOC) monitoring, traffic analysis, threat detection, SIEM operations, and incident investigation using Wireshark and Splunk Enterprise.
 
-This project demonstrates a hands-on Security Operations Center (SOC) monitoring and detection workflow using Wireshark and Splunk SIEM.
-
-The lab focuses on:
-- Network traffic analysis
-- Attack simulation
-- Log monitoring
-- Failed login detection
-- Dashboard visualization
-- Alert generation
-- Incident documentation
-
-The environment was built using Kali Linux, Windows VM, Splunk Enterprise, and UTM virtualization on Mac.
+This project simulates real SOC analyst activities including:
+- packet analysis
+- attack detection
+- log ingestion
+- SIEM monitoring
+- alert generation
+- dashboard creation
+- incident documentation
+- security investigations
 
 ---
 
-# 🎯 Objectives
+# 📌 Project Goals
 
-- Understand baseline network traffic
-- Capture and analyze packets using Wireshark
-- Simulate attacks using Kali Linux
-- Detect abnormal traffic patterns
-- Monitor Windows security logs
-- Detect failed login attempts
-- Create SOC dashboards and alerts
-- Document security incidents
+The purpose of this project is to develop practical SOC Analyst skills through:
+- network traffic monitoring
+- attack simulation
+- Windows log analysis
+- SIEM configuration
+- security alerting
+- dashboard visualization
+- incident response workflow
+
+This project was built as a learning-focused SOC environment to gain experience similar to real-world Security Operations Center activities.
 
 ---
 
-# 🛠️ Tools & Technologies
+# 🖥️ Lab Environment
 
-- Kali Linux
+## 💻 Host Machine
+- MacBook Air M1
+
+## 🧪 Virtualization
+- UTM Virtualization Software
+
+## ⚔️ Attacker Machine
+- Kali Linux VM
+
+## 🎯 Victim Machine
 - Windows 11 VM
-- Wireshark
+
+## 📊 SIEM Platform
 - Splunk Enterprise
-- Windows Event Logs
-- UTM Virtualization
-- VS Code
-- GitHub
 
 ---
 
-# 🧪 Phase 1 — Wireshark Traffic Analysis
+# 🛠️ Technologies & Tools Used
 
-## Activities Performed
+| Tool | Purpose |
+|------|----------|
+| Wireshark | Packet capture & traffic analysis |
+| Splunk Enterprise | SIEM monitoring & log analysis |
+| Kali Linux | Attack simulation |
+| Windows Event Logs | Security event generation |
+| UTM | Virtualization |
+| VS Code | Documentation |
+| GitHub | Project hosting |
+| CMD/PowerShell | System interaction |
 
-- Captured live network traffic
-- Analyzed TCP and SYN packets
-- Detected suspicious scanning behavior
-- Investigated abnormal traffic patterns
+---
 
-## Skills Learned
+# 🎯 Skills Demonstrated
+
+## 🔍 SOC Analyst Skills
+- Security monitoring
+- Threat detection
+- Incident analysis
+- Log investigation
+- Event correlation
+- Alert tuning
+- Dashboard analysis
+- Incident reporting
+
+## 🌐 Networking Skills
+- TCP/IP analysis
+- SYN packet detection
+- Traffic inspection
+- Port scan analysis
+
+## 📊 SIEM Skills
+- Log ingestion
+- Splunk query writing
+- Dashboard creation
+- Alert engineering
+- Visualization analysis
+
+---
+
+# 🧪 PHASE 1 — Wireshark Traffic Analysis
+
+---
+
+## 📌 Objective
+
+To understand normal network behavior and identify suspicious traffic using packet analysis.
+
+---
+
+## ⚔️ Attack Simulation
+
+Attack traffic was generated from:
+- Kali Linux VM
+
+Target:
+- Windows 11 VM
+
+Simulated activities included:
+- TCP communication
+- SYN scanning
+- abnormal packet activity
+
+---
+
+## 📊 Traffic Analysis Performed
+
+### ✅ Baseline Traffic Monitoring
+Normal network behavior was observed to understand:
+- packet flow
+- protocol usage
+- communication patterns
+
+### ✅ TCP Packet Analysis
+Captured and analyzed:
+- TCP handshake
+- source/destination IPs
+- packet sequence behavior
+
+### ✅ SYN Scan Detection
+Detected suspicious SYN traffic which may indicate:
+- reconnaissance
+- port scanning activity
+
+---
+
+## 🧠 Skills Learned in Phase 1
 
 - Packet inspection
-- Network protocol analysis
+- Wireshark filtering
 - Traffic baseline creation
-- SYN scan detection
+- Suspicious packet identification
+- TCP/SYN analysis
+- Initial SOC investigation workflow
 
 ---
 
-# 📊 Phase 2 — Splunk SIEM Monitoring
+# 📊 PHASE 2 — Splunk SIEM Monitoring
 
-## Activities Performed
+---
 
-- Ingested Windows Event Logs into Splunk
-- Monitored failed login attempts
-- Created Splunk dashboards
-- Generated SOC alerts
-- Built incident reports
-- Visualized security events using charts
+## 📌 Objective
 
-## Splunk Queries Used
+To ingest Windows security logs into Splunk and perform SIEM-based monitoring and detection.
+
+---
+
+# 🔄 Log Flow Architecture
+
+```text
+Windows Event Logs
+        ↓
+Splunk Forwarding/Input
+        ↓
+Splunk Enterprise
+        ↓
+Search Queries
+        ↓
+Dashboards & Alerts
+        ↓
+Incident Investigation
+
+# 📥 Log Ingestion
+
+Security logs from the Windows VM were successfully ingested into Splunk SIEM for monitoring and investigation.
+
+### Logs Included
+- Authentication events
+- Failed login attempts
+- Windows security events
+- Account activity logs
+
+---
+
+# 🚨 Security Use Cases Implemented
+
+## ✅ Failed Login Detection
+
+### Monitored Event
+- `EventCode 4625`
+
+### Purpose
+- Detect authentication failures
+- Identify suspicious login attempts
+- Monitor abnormal login behavior
+
+---
+
+## ✅ Multiple Failed Login Monitoring
+
+Repeated failed logins were monitored to identify potentially malicious behavior.
+
+### Potential Indicators
+- Brute-force attacks
+- Password spraying
+- Account targeting
+- Unauthorized authentication attempts
+
+---
+
+# 🔎 Splunk Queries Used
+
+## 📌 Failed Login Detection
 
 ```spl
 index=main EventCode=4625
-| stats count by Account_Name
