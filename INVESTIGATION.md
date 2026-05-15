@@ -218,3 +218,26 @@ This investigation successfully demonstrated a beginner SOC workflow by combinin
 Phase 1 showed how suspicious activity can be observed through packet analysis using Wireshark.
 Phase 2 showed how Windows security events can be ingested into Splunk, analyzed using SPL queries, visualized through dashboards, and monitored using alerts.
 This project provides practical experience for SOC Analyst learning, cybersecurity portfolio development, and interview preparation
+
+---
+
+# Phase 3 — Advanced Detection & Incident Response
+
+Phase 3 expanded the SOC lab into advanced threat hunting and incident response workflows.
+
+The phase included:
+- IOC hunting
+- PowerShell monitoring
+- suspicious process investigation
+- MITRE ATT&CK mapping
+- incident response documentation
+- Splunk threat hunting dashboards
+
+Advanced threat hunting datasets were imported into Splunk SIEM to simulate realistic attacker activity and SOC analyst investigations.
+
+The investigation demonstrated:
+- detection engineering
+- incident analysis
+- IOC hunting
+- dashboard monitoring
+- SOC workflow documentation
