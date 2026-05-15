@@ -1,0 +1,2808 @@
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78729178
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x1344
+	New Process Name:	C:\Windows\Temp\radEF193.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78728987
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x258
+	New Process Name:	C:\Windows\Temp\rad146B0.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78727248
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x7d0
+	New Process Name:	C:\Windows\Temp\radFA438.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78727131
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x1790
+	New Process Name:	C:\Windows\Temp\rad971E3.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78726930
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x17f0
+	New Process Name:	C:\Windows\Temp\rad27724.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78726743
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x848
+	New Process Name:	C:\Windows\Temp\rad2593F.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78726393
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x1344
+	New Process Name:	C:\Windows\Temp\radB39AD.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78726262
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0xfd8
+	New Process Name:	C:\Windows\Temp\radCB5FA.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78726078
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x17a0
+	New Process Name:	C:\Windows\Temp\rad2CA8F.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78725938
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x16ec
+	New Process Name:	C:\Windows\Temp\radCE010.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78725718
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x15cc
+	New Process Name:	C:\Windows\Temp\rad4C0BB.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78725547
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x1348
+	New Process Name:	C:\Windows\Temp\rad9BFD9.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78725412
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x15f4
+	New Process Name:	C:\Windows\Temp\rad45721.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78725214
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x15e8
+	New Process Name:	C:\Windows\Temp\rad69F1C.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78725081
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0xc54
+	New Process Name:	C:\Windows\Temp\radD6409.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78724904
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x16fc
+	New Process Name:	C:\Windows\Temp\radAA9A4.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78724765
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x4e4
+	New Process Name:	C:\Windows\Temp\radEFA94.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78724395
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x1580
+	New Process Name:	C:\Windows\Temp\rad37ABB.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78724261
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x3a0
+	New Process Name:	C:\Windows\Temp\rad6C138.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78724033
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x14c8
+	New Process Name:	C:\Windows\Temp\rad55B88.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78722311
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x13e4
+	New Process Name:	C:\Windows\Temp\radBA8D3.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78722182
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x1224
+	New Process Name:	C:\Windows\Temp\radA1C5E.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78721998
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x1710
+	New Process Name:	C:\Windows\Temp\rad61CA6.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78721859
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x1758
+	New Process Name:	C:\Windows\Temp\rad30267.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78721295
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x15fc
+	New Process Name:	C:\Windows\Temp\rad74985.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78721173
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x1390
+	New Process Name:	C:\Windows\Temp\rad1D699.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78720976
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x1658
+	New Process Name:	C:\Windows\Temp\rad5CBAA.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78720782
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x1694
+	New Process Name:	C:\Windows\Temp\rad75E73.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78720653
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x1424
+	New Process Name:	C:\Windows\Temp\rad33CA4.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78720471
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0xc68
+	New Process Name:	C:\Windows\Temp\rad7A0DA.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78720321
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x16c0
+	New Process Name:	C:\Windows\Temp\radAFE6C.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78720116
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x12ec
+	New Process Name:	C:\Windows\Temp\radA54D5.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78719983
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0xa08
+	New Process Name:	C:\Windows\Temp\radB9D01.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78719783
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x1344
+	New Process Name:	C:\Windows\Temp\radB7750.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78719659
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x10d8
+	New Process Name:	C:\Windows\Temp\rad34B96.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78719465
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x1340
+	New Process Name:	C:\Windows\Temp\rad96DA3.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78719296
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x1408
+	New Process Name:	C:\Windows\Temp\rad61041.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78719097
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0xeb8
+	New Process Name:	C:\Windows\Temp\rad3D5AC.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78717431
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x1668
+	New Process Name:	C:\Windows\Temp\rad70078.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78717308
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x121c
+	New Process Name:	C:\Windows\Temp\rad53106.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78717120
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0xe3c
+	New Process Name:	C:\Windows\Temp\radD957C.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78716854
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x464
+	New Process Name:	C:\Windows\Temp\rad3E80A.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78716483
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x1110
+	New Process Name:	C:\Windows\Temp\rad5CBE8.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78716281
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x1240
+	New Process Name:	C:\Windows\Temp\rad16E22.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78716159
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x1220
+	New Process Name:	C:\Windows\Temp\rad599FE.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78715959
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x1690
+	New Process Name:	C:\Windows\Temp\rad11497.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78715800
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x134c
+	New Process Name:	C:\Windows\Temp\rad717FA.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78715613
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0xf60
+	New Process Name:	C:\Windows\Temp\rad5F2F2.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78715485
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x1080
+	New Process Name:	C:\Windows\Temp\rad8123E.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78715293
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x17a8
+	New Process Name:	C:\Windows\Temp\rad726E6.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78714965
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x14c8
+	New Process Name:	C:\Windows\Temp\rad5216A.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78714773
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x1668
+	New Process Name:	C:\Windows\Temp\radD3D03.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78714572
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0xd58
+	New Process Name:	C:\Windows\Temp\rad3186E.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78714452
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0xec
+	New Process Name:	C:\Windows\Temp\radD872B.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78714264
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x1214
+	New Process Name:	C:\Windows\Temp\radA7922.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78712680
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x1080
+	New Process Name:	C:\Windows\Temp\rad12070.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78712398
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0xd34
+	New Process Name:	C:\Windows\Temp\rad19F61.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78712267
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x1124
+	New Process Name:	C:\Windows\Temp\rad233B8.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78712082
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0xb98
+	New Process Name:	C:\Windows\Temp\rad29653.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78711724
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0xb90
+	New Process Name:	C:\Windows\Temp\radE4CB0.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78711583
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0xff4
+	New Process Name:	C:\Windows\Temp\radD913E.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78711372
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x1528
+	New Process Name:	C:\Windows\Temp\rad0E326.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78711192
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x143c
+	New Process Name:	C:\Windows\Temp\radF6A45.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78711008
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x17d8
+	New Process Name:	C:\Windows\Temp\rad93B4E.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78710840
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0xa10
+	New Process Name:	C:\Windows\Temp\rad55719.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78710293
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0xd60
+	New Process Name:	C:\Windows\Temp\radABFC5.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78710155
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0xa20
+	New Process Name:	C:\Windows\Temp\radF8E76.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78709775
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x155c
+	New Process Name:	C:\Windows\Temp\radC4C6D.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78709580
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x150c
+	New Process Name:	C:\Windows\Temp\radE338C.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78709459
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0xa98
+	New Process Name:	C:\Windows\Temp\rad95C87.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78709266
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0xb90
+	New Process Name:	C:\Windows\Temp\rad0B695.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+04/01/2021 06:44:32 PM
+LogName=Security
+EventCode=4688
+EventType=0
+ComputerName=win2k12sdc.kkctf.local
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=78709144
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A new process has been created.
+
+Creator Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN2K12SDC$
+	Account Domain:		KKCTF
+	Logon ID:		0x3E7
+
+Target Subject:
+	Security ID:		S-1-0-0
+	Account Name:		-
+	Account Domain:		-
+	Logon ID:		0x0
+
+Process Information:
+	New Process ID:		0x1220
+	New Process Name:	C:\Windows\Temp\rad086A0.tmp\ZfCfCcCJwUFfKNm.exe
+	Token Elevation Type:	TokenElevationTypeDefault (1)
+	Creator Process ID:	0x1308
+	Process Command Line:	
+
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
