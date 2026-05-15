@@ -216,3 +216,118 @@ Repeated failed logins were monitored to identify potentially malicious behavior
 
 ```spl
 index=main EventCode=4625
+---
+
+# 🧪 PHASE 3 — Advanced Detection & Incident Response
+
+## 📌 Objective
+
+The objective of Phase 3 was to simulate advanced SOC threat hunting and incident response workflows using Splunk SIEM and imported attack datasets.
+
+This phase focused on:
+- IOC hunting
+- PowerShell monitoring
+- suspicious process analysis
+- MITRE ATT&CK mapping
+- incident response workflows
+- advanced threat hunting
+
+---
+
+# 🔎 IOC Hunting Activities
+
+Threat hunting queries were used to identify suspicious indicators including:
+- PowerShell activity
+- suspicious process execution
+- temporary directory activity
+- attacker-like execution behavior
+
+---
+
+# 🚨 Detection Queries Used
+
+## PowerShell Detection
+
+```spl
+index=main powershell
+```
+
+## Suspicious Process Detection
+
+```spl
+index=main process
+```
+
+## Temporary Directory Activity
+
+```spl
+index=main temp
+```
+
+## Combined IOC Hunt
+
+```spl
+index=main powershell OR cmd.exe OR temp
+```
+
+---
+
+# 🛡️ MITRE ATT&CK Mapping
+
+The following ATT&CK techniques were mapped:
+
+| Technique ID | Technique Name | Tactic |
+|---|---|---|
+| T1059.001 | PowerShell | Execution |
+| T1059 | Command and Scripting Interpreter | Execution |
+| T1204 | User Execution | Execution |
+
+---
+
+# 🚨 Incident Response Workflow
+
+The investigation simulated:
+- threat hunting
+- IOC analysis
+- suspicious activity investigation
+- dashboard monitoring
+- incident response documentation
+- SOC analyst workflow
+
+---
+
+# 📊 Dashboards & Visualizations
+
+Dashboards were created for:
+- PowerShell monitoring
+- suspicious process tracking
+- temporary directory activity
+- IOC hunting visualizations
+
+---
+
+# 📸 Evidence Collected
+
+Phase 3 evidence included:
+- Splunk dashboards
+- IOC hunting screenshots
+- PowerShell detections
+- MITRE ATT&CK reports
+- incident response reports
+- suspicious activity analysis
+
+---
+
+# 📈 Skills Demonstrated
+
+- Threat hunting
+- IOC analysis
+- Detection engineering
+- PowerShell monitoring
+- MITRE ATT&CK mapping
+- Incident response workflow
+- Splunk SIEM investigation
+- Dashboard analysis
+- SOC documentation
+
+---
