@@ -331,3 +331,151 @@ Phase 3 evidence included:
 - SOC documentation
 
 ---
+
+# 🛡️ PHASE 4 — Advanced Attack Detection & Incident Response
+
+## 📌 Objective
+
+The objective of Phase 4 was to simulate realistic authentication attack detection and SOC investigation workflows using Splunk SIEM, Windows Security logs, and attack simulation techniques.
+
+This phase focused on:
+- brute-force detection
+- failed login monitoring
+- authentication attack analysis
+- alert triage
+- dashboard engineering
+- incident response procedures
+- MITRE ATT&CK mapping
+
+---
+
+# 🚨 Attack Simulation Activities
+
+The following attack simulations were performed within the lab environment:
+
+- repeated failed login attempts
+- authentication attack simulation
+- Nmap reconnaissance scanning
+- suspicious login activity generation
+
+The attacks were generated within an isolated virtual lab environment using:
+- Kali Linux VM
+- Windows VM
+- Splunk SIEM
+
+---
+
+# 🔎 Detection Queries Used
+
+## Failed Login Detection
+
+```spl
+index=main EventCode=4625
+```
+
+## Brute Force Detection
+
+```spl
+index=main EventCode=4625
+| stats count by Account_Name
+| where count > 3
+```
+
+## Failed Login Timeline
+
+```spl
+index=main EventCode=4625
+| timechart count
+```
+
+## Targeted Account Monitoring
+
+```spl
+index=main EventCode=4625
+| top Account_Name
+```
+
+---
+
+# 📊 Dashboards Created
+
+The following dashboards were developed:
+
+- Failed Login Timeline
+- Top Targeted Accounts
+- Authentication Activity Monitoring
+
+Dashboard visualizations included:
+- line charts
+- bar graphs
+- authentication statistics
+- attack trend monitoring
+
+---
+
+# 🚨 Alerts Configured
+
+## Multiple Failed Login Detection
+
+The alert was configured to:
+- detect repeated authentication failures
+- identify brute-force activity
+- support SOC monitoring workflows
+
+Alert trigger logic:
+
+```spl
+index=main EventCode=4625
+| stats count by Account_Name
+| where count > 3
+```
+
+---
+
+# 🛡️ MITRE ATT&CK Mapping
+
+| Technique ID | Technique Name | Tactic |
+|---|---|---|
+| T1110 | Brute Force | Credential Access |
+
+---
+
+# 📝 Incident Response Activities
+
+The incident response workflow included:
+- authentication log analysis
+- brute-force investigation
+- alert triage
+- dashboard monitoring
+- attack timeline analysis
+- SOC documentation
+- MITRE ATT&CK mapping
+
+---
+
+# 📈 Skills Demonstrated
+
+- Splunk SIEM monitoring
+- brute-force detection
+- dashboard engineering
+- alert triage
+- SOC investigation
+- authentication monitoring
+- incident response
+- MITRE ATT&CK mapping
+- detection engineering
+
+---
+
+# 🔥 Future Improvements
+
+Planned future enhancements include:
+- Sysmon integration
+- Wazuh deployment
+- advanced endpoint telemetry
+- PowerShell detection
+- suspicious process monitoring
+- network telemetry
+- advanced threat hunting
+- correlation rules
+- IOC enrichment
