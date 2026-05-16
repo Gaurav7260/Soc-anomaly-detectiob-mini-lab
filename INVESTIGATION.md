@@ -241,3 +241,96 @@ The investigation demonstrated:
 - IOC hunting
 - dashboard monitoring
 - SOC workflow documentation
+
+---
+
+# Phase 4 — Advanced Attack Detection & Incident Response
+
+Phase 4 focused on authentication attack simulation and advanced SOC monitoring workflows using Splunk SIEM and Windows Security logs.
+
+The phase simulated:
+- brute-force authentication attacks
+- repeated failed login attempts
+- authentication anomaly detection
+- SOC alert triage procedures
+
+Attack activity was generated within a controlled lab environment using:
+- Kali Linux VM
+- Windows VM
+- Splunk Enterprise
+
+---
+
+# Detection Activities
+
+The following detection workflows were implemented:
+
+- failed login monitoring
+- brute-force detection logic
+- authentication timeline monitoring
+- targeted account analysis
+- alert engineering
+- dashboard visualization
+
+---
+
+# Splunk Queries Used
+
+## Failed Login Detection
+
+```spl
+index=main EventCode=4625
+```
+
+## Brute Force Detection
+
+```spl
+index=main EventCode=4625
+| stats count by Account_Name
+| where count > 3
+```
+
+## Authentication Timeline
+
+```spl
+index=main EventCode=4625
+| timechart count
+```
+
+---
+
+# Dashboards & Alerts
+
+Splunk dashboards were created for:
+- failed login monitoring
+- authentication activity visualization
+- targeted account analysis
+
+Alerts were configured to identify:
+- repeated failed login attempts
+- suspicious authentication behavior
+- possible brute-force attacks
+
+---
+
+# MITRE ATT&CK Mapping
+
+The following ATT&CK technique was mapped during the investigation:
+
+| Technique ID | Technique Name | Tactic |
+|---|---|---|
+| T1110 | Brute Force | Credential Access |
+
+---
+
+# Investigation Outcome
+
+The investigation successfully demonstrated:
+- authentication attack detection
+- SOC monitoring workflow
+- Splunk dashboard engineering
+- alert triage
+- incident response procedures
+- MITRE ATT&CK mapping
+
+This phase expanded the SOC lab into realistic attack simulation and defensive monitoring scenarios within a controlled virtual environment.
